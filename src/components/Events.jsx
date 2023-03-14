@@ -5,7 +5,7 @@ const callouts = [
   
   {
     name: 'Productos',
-    description: '¿Quieres saber más al respecto de nuestra arena, sus beneficios y por que le encantará a tu gatito? Comunicate con nosotros através de whatsapp o bien >>>>>',
+    description: '¿Quieres saber más al respecto de nuestra arena? Sus beneficios le encantarán a ti y a tu gatito! Comunicate con nosotros através de whatsapp o bien por nuestras redes sociales.',
     imageSrc: Main,
     imageAlt: '',
     href: 'https://wa.me/c/5213315694973',
@@ -23,12 +23,11 @@ const callouts = [
 export default function Example() {
   return (
 
-    <div className="bg-gray-100">
-      <div className="mx-auto max-w-3xl px-2 sm:px-3 lg:px-4">
-        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+    <div className="bg-black-100">
+      <div className="px-4 sm:px-6 lg:xpx-8">
+        <div className="py-4 sm:py-4 lg:max-w-none lg:py-16">
           <h2 className="text-2xl font-bold text-gray-900">Somos una empresa 100% Mexicana fabricante de productos para mascotas que marque una diferenciación en el mercado con el objetivo de cumplir las expectativas de nuestros clientes a un precio justo.</h2>
-
-          <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+          <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
               <div key={callout.name} className="group relative">
                 <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">

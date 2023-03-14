@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import Events from './components/Events'
 import Navbar from './components/Navbar'
 
