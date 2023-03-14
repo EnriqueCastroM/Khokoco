@@ -26,7 +26,7 @@ export default function Example() {
     <div className="bg-black-100">
       <div className="px-4 sm:px-6 lg:xpx-8">
         <div className="py-4 sm:py-4 lg:max-w-none lg:py-16">
-          <h2 className="text-2xl font-bold text-gray-900">Somos una empresa 100% Mexicana fabricante de productos para mascotas que marque una diferenciación en el mercado con el objetivo de cumplir las expectativas de nuestros clientes a un precio justo.</h2>
+          <h2 className="text-2xl font-bold text-white-900">Somos una empresa 100% Mexicana fabricante de productos para mascotas que marque una diferenciación en el mercado con el objetivo de cumplir las expectativas de nuestros clientes a un precio justo.</h2>
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
               <div key={callout.name} className="group relative">
@@ -37,13 +37,13 @@ export default function Example() {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <h3 className="mt-6 text-sm text-gray-500">
+                <h3 className="mt-6 text-sm text-white-500">
                   <a href={callout.href}>
                     <span className="absolute inset-0" />
                     {callout.name}
                   </a>
                 </h3>
-                <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+                <p className="text-base font-semibold text-white-900">{callout.description}</p>
               </div>
             ))}
           </div>
