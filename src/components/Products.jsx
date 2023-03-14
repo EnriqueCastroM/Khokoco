@@ -1,8 +1,11 @@
 import React from 'react'
-import Flyer from '../assets/img/Flyer.jpeg'
+import Menu from '../assets/img/menu.jpg'
 const Products = () => {
   return (
-   <img src={Flyer} alt="" srcset="" id="flyer"/>
+   <div className='productos'>
+       <a className='linkWhatsapp' href="https://wa.me/c/5213315694973"><img src={Menu} className="menuStyle"/></a>
+
+   </div>
   )
 }
 

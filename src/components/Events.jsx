@@ -1,29 +1,21 @@
-import Event1 from '../assets/img/Event1.png'
-import Event2 from '../assets/img/Event2.png'
+import About from '../assets/img/About us.png'
 import Main from '../assets/img/Main.png'
 import Products from './Products'
 const callouts = [
-  {
-    name: 'Jacaranto Bazar',
-    description: 'Mercado local para impulsar a emprendedores y emprendedoras',
-    imageSrc: Event2,
-    imageAlt: '',
-    href: 'https://goo.gl/maps/vZUjd8q6LaejitWW9',
-  },
- 
+  
   {
     name: 'Productos',
-    description: '',
+    description: '¿Quieres saber más al respecto de nuestra arena, sus beneficios y por que le encantará a tu gatito? Comunicate con nosotros através de whatsapp o bien >>>>>',
     imageSrc: Main,
-    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-    href: '#',
+    imageAlt: '',
+    href: 'https://wa.me/c/5213315694973',
   },
   {
-    name: 'Festival de las arcillas',
-    description: 'Primer festival de las arcillas donde habrá talleres, pláticas, música, bazar de emprendedores y rifas todo el día.',
-    imageSrc: Event1,
+    name: 'Sobre nosotros',
+    description: 'Escribenos por whatsapp para realizar tu pedido click en la imagen del catalogo de abajo.',
+    imageSrc: About,
     imageAlt: '',
-    href: 'https://goo.gl/maps/MrrShKNSy2kJx4QG7',
+    href: 'https://wa.me/c/5213315694973',
   },
  
 ]
@@ -32,9 +24,9 @@ export default function Example() {
   return (
 
     <div className="bg-gray-100">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-3xl px-2 sm:px-3 lg:px-4">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-          <h2 className="text-2xl font-bold text-gray-900">Próximos eventos:</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Somos una empresa 100% Mexicana fabricante de productos para mascotas que marque una diferenciación en el mercado con el objetivo de cumplir las expectativas de nuestros clientes a un precio justo.</h2>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
